@@ -21,9 +21,7 @@ class TappableSlider: UISlider {
 
 import UIKit
 
-class CustomView: UIView,ModelDelegate {
-    
-    let modelViewController = ModelViewController()
+class CustomView: UIView {
     
     @IBOutlet weak var gbCountslider: TappableSlider!
     @IBOutlet weak var inTaxlabel: UILabel!
